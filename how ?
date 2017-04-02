@@ -1,0 +1,3 @@
+python forward.py --img_fn 004545.jpg --gpu 0
+
+

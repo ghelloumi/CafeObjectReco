@@ -5,13 +5,10 @@ var multer = require('multer');
 var fs = require('fs');
 var http = require('http');
 
-app.use(function (req, res, next) { //allow cross origin requests
-    res.setHeader("Access-Control-Allow-Methods", "POST, PUT, OPTIONS, DELETE, GET");
-    res.header("Access-Control-Allow-Origin", "http://localhost:3000");
-    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-    res.header("Access-Control-Allow-Credentials", true);
-    next();
-});
+var name;
+var d;
+var str
+
 
 /** Serving from the same express Server
  No cors required */
@@ -53,15 +50,13 @@ app.post('/upload', function (req, res) {
 
         PythonShell.run('forward.py', options, function (err, results) {
             if (err) throw err;
-            console.log('results: %j', results);
+            str='results: %j', results;
+
+            name = req.file.filename;
 
             fs.readFile('res/' + req.file.filename, function (err, data) {
                 if (err) console.log('file not found'); // Fail if the file can't be read.
-                http.createServer(function (req, res) {
-                    res.writeHead(200, {'Content-Type': 'image/jpeg'});
-                    res.end(data); // Send the file data to the browser.
-                }).listen(3002);
-                console.log('Image successfully treated');
+                d = data;
             });
 
         });
@@ -81,8 +76,31 @@ app.post('/upload', function (req, res) {
     });
 });
 
+
+app.post('/recon', function (req, res) {
+
+
+    var server=http.createServer(function (req, res) {
+         res.writeHead(200, {'Content-Type': 'image/jpeg'});
+         res.end(d); // Send the file data to the browser.
+    }).listen(3002);
+    console.log('Image successfully treated');
+
+
+    http.get({host: "localhost", port: "3002"}, function (res) {
+        if (res.statusCode == 200) {
+            console.log("This site is up and running!");
+
+            setTimeout(function(){server.close()},3000);
+            console.log('ok closed');
+        }
+
+        else
+            console.log("This site might be down " + res.statusCode);
+    });
+
+});
+
 app.listen('3001', function () {
     console.log('running on 3001...');
-
-
 });

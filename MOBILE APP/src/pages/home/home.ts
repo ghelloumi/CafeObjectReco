@@ -3,6 +3,7 @@ import { NavController, ActionSheetController, ToastController, Platform, Loadin
 import { Camera, File, Transfer, FilePath } from 'ionic-native';
 import {ResultPage} from "../result/result";
 import {UploadService} from "../../providers/upload-service";
+import {Http} from "@angular/http";
 
 declare var cordova: any;
 
@@ -15,7 +16,7 @@ export class HomePage {
   loading: Loading;
   apiUrl = this.appSettings.getApiUrl();
 
-  constructor(public appSettings: UploadService,public navCtrl: NavController, public actionSheetCtrl: ActionSheetController, public toastCtrl: ToastController, public platform: Platform, public loadingCtrl: LoadingController) {}
+  constructor(public http: Http,public appSettings: UploadService,public navCtrl: NavController, public actionSheetCtrl: ActionSheetController, public toastCtrl: ToastController, public platform: Platform, public loadingCtrl: LoadingController) {}
 
   public presentActionSheet() {
     let actionSheet = this.actionSheetCtrl.create({
@@ -144,9 +145,14 @@ export class HomePage {
   }
 
   pushPage(){
-    // push another page on to the navigation stack
-    // causing the nav controller to transition to the new page
-    // optional data can also be passed to the pushed page.
+
+    this.http.post(this.apiUrl + '3001/recon',
+      JSON.stringify({}))
+      .subscribe(res => {
+        console.log(res.json());
+      });
     this.navCtrl.push(ResultPage);
+    // setTimeout(this.navCtrl.push(ResultPage),1000);
   }
+
 }

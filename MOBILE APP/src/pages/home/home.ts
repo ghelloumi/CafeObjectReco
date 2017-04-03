@@ -3,7 +3,6 @@ import { NavController, ActionSheetController, ToastController, Platform, Loadin
 import { Camera, File, Transfer, FilePath } from 'ionic-native';
 import {ResultPage} from "../result/result";
 import {UploadService} from "../../providers/upload-service";
-import {Http} from "@angular/http";
 
 declare var cordova: any;
 
@@ -15,8 +14,12 @@ export class HomePage {
   lastImage: string = null;
   loading: Loading;
   apiUrl = this.appSettings.getApiUrl();
+  name: String;
 
-  constructor(public http: Http,public appSettings: UploadService,public navCtrl: NavController, public actionSheetCtrl: ActionSheetController, public toastCtrl: ToastController, public platform: Platform, public loadingCtrl: LoadingController) {}
+  successUrl=this.apiUrl+"index.html";
+
+
+  constructor(public appSettings: UploadService,public navCtrl: NavController, public actionSheetCtrl: ActionSheetController, public toastCtrl: ToastController, public platform: Platform, public loadingCtrl: LoadingController) {}
 
   public presentActionSheet() {
     let actionSheet = this.actionSheetCtrl.create({
@@ -74,7 +77,6 @@ export class HomePage {
     });
   }
 
-  // Create a new name for the image
   private createFileName() {
     var d = new Date(),
       n = d.getTime(),
@@ -82,7 +84,6 @@ export class HomePage {
     return newFileName;
   }
 
-// Copy the image to a local folder
   private copyFileToLocalDir(namePath, currentName, newFileName) {
     File.copyFile(namePath, currentName, cordova.file.dataDirectory, newFileName).then(success => {
       this.lastImage = newFileName;
@@ -100,7 +101,6 @@ export class HomePage {
     toast.present();
   }
 
-// Always get the accurate path to your apps folder
   public pathForImage(img) {
     if (img === null) {
       return '';
@@ -111,13 +111,14 @@ export class HomePage {
 
   public uploadImage() {
     // Destination URL
-    var url = this.apiUrl+"3001/upload";
+    var url = this.apiUrl+"upload";
 
     // File for Upload
     var targetPath = this.pathForImage(this.lastImage);
 
     // File name only
     var filename = this.lastImage;
+    this.name="file-"+filename;
 
     var options = {
       fileKey: "file",
@@ -145,13 +146,7 @@ export class HomePage {
   }
 
   pushPage(){
-
-    this.http.post(this.apiUrl + '3001/recon',
-      JSON.stringify({}))
-      .subscribe(res => {
-        console.log(res.json());
-      });
-    this.navCtrl.push(ResultPage);
+    this.navCtrl.push(ResultPage,{name: this.name});
     // setTimeout(this.navCtrl.push(ResultPage),1000);
   }
 

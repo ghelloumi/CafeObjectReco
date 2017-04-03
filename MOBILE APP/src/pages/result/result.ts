@@ -1,6 +1,5 @@
 import {Component} from '@angular/core';
-import {NavController, NavParams, Platform} from 'ionic-angular';
-import {Http} from "@angular/http";
+import {NavParams, Platform} from 'ionic-angular';
 import {UploadService} from "../../providers/upload-service";
 
 @Component({
@@ -8,21 +7,20 @@ import {UploadService} from "../../providers/upload-service";
   templateUrl: 'result.html'
 })
 
-
 export class ResultPage {
-  url = this.appSettings.getApiUrl() + "3002/";
+
   h: number;
   w: number;
 
-  constructor(platform: Platform, public http: Http, public appSettings: UploadService, public navCtrl: NavController, public navParams: NavParams) {
+  url = this.appSettings.getApiUrl()+this.navParams.get('name');
+
+  constructor(platform: Platform,public appSettings: UploadService, public navParams: NavParams) {
     platform.ready().then((readySource) => {
       this.w = platform.width();
-      this.h = platform.height();
+      this.h = (platform.height()/4)*3;
     });
   }
 
   ionViewDidLoad() {
-
   }
-
 }

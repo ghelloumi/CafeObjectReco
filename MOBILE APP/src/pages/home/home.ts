@@ -1,8 +1,13 @@
-import { Component } from '@angular/core';
-import { NavController, ActionSheetController, ToastController, Platform, LoadingController, Loading } from 'ionic-angular';
-import { Camera, File, Transfer, FilePath } from 'ionic-native';
+import {Component} from '@angular/core';
+import {
+  NavController, ActionSheetController, ToastController, Platform, LoadingController, Loading,
+  AlertController
+} from 'ionic-angular';
+import {Camera, File, Transfer, FilePath} from 'ionic-native';
 import {ResultPage} from "../result/result";
 import {UploadService} from "../../providers/upload-service";
+import {Http, Headers} from "@angular/http";
+import 'rxjs/add/operator/map';
 
 declare var cordova: any;
 
@@ -15,11 +20,13 @@ export class HomePage {
   loading: Loading;
   apiUrl = this.appSettings.getApiUrl();
   name: String;
+  successUrl: String;
+  urlImg: string;
+  numero: string;
+  image: string;
 
-  successUrl=this.apiUrl+"index.html";
-
-
-  constructor(public appSettings: UploadService,public navCtrl: NavController, public actionSheetCtrl: ActionSheetController, public toastCtrl: ToastController, public platform: Platform, public loadingCtrl: LoadingController) {}
+  constructor(public http: Http, public alertCtrl: AlertController, public appSettings: UploadService, public navCtrl: NavController, public actionSheetCtrl: ActionSheetController, public toastCtrl: ToastController, public platform: Platform, public loadingCtrl: LoadingController) {
+  }
 
   public presentActionSheet() {
     let actionSheet = this.actionSheetCtrl.create({
@@ -36,6 +43,11 @@ export class HomePage {
           handler: () => {
             this.takePicture(Camera.PictureSourceType.CAMERA);
           }
+        }, {
+          text: 'Load random image',
+          handler: () => {
+            this.presentPrompt();
+          }
         },
         {
           text: 'Cancel',
@@ -46,6 +58,50 @@ export class HomePage {
     actionSheet.present();
   }
 
+  public presentPrompt() {
+    let alert = this.alertCtrl.create({
+      title: 'Random Picture',
+      inputs: [
+        {
+          name: 'number',
+          placeholder: 'Give number [1..2947]'
+        }
+      ],
+      buttons: [
+        {
+          text: 'Preview',
+          handler: data => {
+            this.preview(data.number);
+          }
+        },
+        {
+          text: 'Cancel',
+          role: 'cancel',
+          handler: data => {
+            //Cancel
+          }
+        }
+
+      ]
+    });
+    alert.present();
+  }
+
+//Preview - random
+  public preview(num) {
+    this.numero = "IMG" + num + ".jpg";
+    var data = JSON.stringify({
+      number: num,
+    });
+    let headers = new Headers();
+    headers.append('Content-Type', 'application/json');
+    this.http.post(this.apiUrl + "numb", data, {headers: headers}).subscribe();
+    this.urlImg = this.apiUrl + "IMG" + num + ".jpg";
+    this.lastImage = "IMG" + num + ".jpg";
+  }
+
+
+//Camera
   public takePicture(sourceType) {
     // Create options for the Camera Dialog
     var options = {
@@ -80,7 +136,7 @@ export class HomePage {
   private createFileName() {
     var d = new Date(),
       n = d.getTime(),
-      newFileName =  n + ".jpg";
+      newFileName = n + ".jpg";
     return newFileName;
   }
 
@@ -104,6 +160,9 @@ export class HomePage {
   public pathForImage(img) {
     if (img === null) {
       return '';
+    }
+    else if (img === this.numero) {
+      return this.urlImg;
     } else {
       return cordova.file.dataDirectory + img;
     }
@@ -111,31 +170,40 @@ export class HomePage {
 
   public uploadImage() {
     // Destination URL
-    var url = this.apiUrl+"upload";
+    var url = this.apiUrl + "upload";
 
     // File for Upload
     var targetPath = this.pathForImage(this.lastImage);
 
     // File name only
     var filename = this.lastImage;
-    this.name="file-"+filename;
+
+    this.name = "file-" + filename;
+
+    this.successUrl = this.apiUrl + this.name;
 
     var options = {
       fileKey: "file",
       fileName: filename,
       chunkedMode: false,
       mimeType: "multipart/form-data",
-      params : {'fileName': filename}
+      params: {'fileName': filename}
     };
+
+
 
     const fileTransfer = new Transfer();
 
+
+    console.log(targetPath);
     this.loading = this.loadingCtrl.create({
       content: 'Uploading...',
     });
     this.loading.present();
 
+
     // Use the FileTransfer to upload the image
+
     fileTransfer.upload(targetPath, url, options).then(data => {
       this.loading.dismissAll()
       this.presentToast('Image succesful uploaded. Please wait until image get recognized');
@@ -143,11 +211,12 @@ export class HomePage {
       this.loading.dismissAll()
       this.presentToast('Error while uploading file.');
     });
+
   }
 
-  pushPage(){
-    this.navCtrl.push(ResultPage,{name: this.name});
-    // setTimeout(this.navCtrl.push(ResultPage),1000);
+
+  pushPage() {
+    this.navCtrl.push(ResultPage, {name: this.name});
   }
 
 }

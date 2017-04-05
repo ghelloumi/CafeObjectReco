@@ -2,12 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adc20935-cf03-4326-a460-6c1a61da5fd3" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MOBILE APP/src/assets/icon/favicon.ico" afterPath="$PROJECT_DIR$/MOBILE APP/src/assets/icon/favicon.ico" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MOBILE APP/.editorconfig" afterPath="$PROJECT_DIR$/MOBILE APP/.editorconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MOBILE APP/.gitignore" afterPath="$PROJECT_DIR$/MOBILE APP/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MOBILE APP/config.xml" afterPath="$PROJECT_DIR$/MOBILE APP/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MOBILE APP/ionic.config.json" afterPath="$PROJECT_DIR$/MOBILE APP/ionic.config.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MOBILE APP/node-app/1.py" afterPath="$PROJECT_DIR$/MOBILE APP/node-app/1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MOBILE APP/node-app/app.js" afterPath="$PROJECT_DIR$/MOBILE APP/node-app/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MOBILE APP/node-app/gulpfile.js" afterPath="$PROJECT_DIR$/MOBILE APP/node-app/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MOBILE APP/node-app/package.json" afterPath="$PROJECT_DIR$/MOBILE APP/node-app/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MOBILE APP/node-app/readme" afterPath="$PROJECT_DIR$/MOBILE APP/node-app/readme" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MOBILE APP/package.json" afterPath="$PROJECT_DIR$/MOBILE APP/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MOBILE APP/src/app/app.component.ts" afterPath="$PROJECT_DIR$/MOBILE APP/src/app/app.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MOBILE APP/src/app/app.html" afterPath="$PROJECT_DIR$/MOBILE APP/src/app/app.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MOBILE APP/src/app/app.module.ts" afterPath="$PROJECT_DIR$/MOBILE APP/src/app/app.module.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MOBILE APP/src/app/app.scss" afterPath="$PROJECT_DIR$/MOBILE APP/src/app/app.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MOBILE APP/src/app/main.ts" afterPath="$PROJECT_DIR$/MOBILE APP/src/app/main.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MOBILE APP/src/declarations.d.ts" afterPath="$PROJECT_DIR$/MOBILE APP/src/declarations.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MOBILE APP/src/index.html" afterPath="$PROJECT_DIR$/MOBILE APP/src/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MOBILE APP/src/manifest.json" afterPath="$PROJECT_DIR$/MOBILE APP/src/manifest.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MOBILE APP/src/pages/home/home.html" afterPath="$PROJECT_DIR$/MOBILE APP/src/pages/home/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MOBILE APP/src/pages/home/home.scss" afterPath="$PROJECT_DIR$/MOBILE APP/src/pages/home/home.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MOBILE APP/src/pages/home/home.ts" afterPath="$PROJECT_DIR$/MOBILE APP/src/pages/home/home.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MOBILE APP/src/pages/result/result.html" afterPath="$PROJECT_DIR$/MOBILE APP/src/pages/result/result.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MOBILE APP/src/pages/result/result.scss" afterPath="$PROJECT_DIR$/MOBILE APP/src/pages/result/result.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MOBILE APP/src/pages/result/result.ts" afterPath="$PROJECT_DIR$/MOBILE APP/src/pages/result/result.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MOBILE APP/src/providers/upload-service.ts" afterPath="$PROJECT_DIR$/MOBILE APP/src/providers/upload-service.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app (copie).js" afterPath="$PROJECT_DIR$/app (copie).js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MOBILE APP/src/service-worker.js" afterPath="$PROJECT_DIR$/MOBILE APP/src/service-worker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MOBILE APP/src/theme/variables.scss" afterPath="$PROJECT_DIR$/MOBILE APP/src/theme/variables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MOBILE APP/tsconfig.json" afterPath="$PROJECT_DIR$/MOBILE APP/tsconfig.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MOBILE APP/tslint.json" afterPath="$PROJECT_DIR$/MOBILE APP/tslint.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -32,11 +57,22 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="39" column="22" lean-forward="false" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+            <state relative-caret-position="-183">
+              <caret line="46" column="19" lean-forward="false" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="19" />
               <folding>
-                <element signature="e#227#534#0" expanded="false" />
+                <element signature="e#572#879#0" expanded="false" />
+                <element signature="e#903#945#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MOBILE APP/src/pages/home/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="55" lean-forward="true" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -44,14 +80,14 @@
       <file leaf-file-name="home.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MOBILE APP/src/pages/home/home.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="134">
+              <caret line="106" column="4" lean-forward="false" selection-start-line="106" selection-start-column="4" selection-end-line="106" selection-end-column="4" />
               <folding>
-                <element signature="e#0#42#0" expanded="true" />
+                <element signature="e#0#40#0" expanded="true" />
                 <element signature="n#!!block;n#presentActionSheet#0;n#HomePage#0" expanded="false" />
-                <element signature="n#!!block;n#takePicture#0;n#HomePage#0" expanded="false" />
-                <element signature="e#1766#2544#0" expanded="false" />
-                <element signature="e#2555#2619#0" expanded="false" />
+                <element signature="n#!!block;n#presentPrompt#0;n#HomePage#0" expanded="false" />
+                <element signature="e#2780#2950#0" expanded="false" />
+                <element signature="e#3036#3814#0" expanded="false" />
                 <element signature="n#!!block;n#createFileName#0;n#HomePage#0" expanded="false" />
                 <element signature="n#!!block;n#copyFileToLocalDir#0;n#HomePage#0" expanded="false" />
                 <element signature="n#!!block;n#presentToast#0;n#HomePage#0" expanded="false" />
@@ -64,23 +100,33 @@
       <file leaf-file-name="result.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MOBILE APP/src/pages/result/result.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+            <state relative-caret-position="735">
+              <caret line="64" column="7" lean-forward="false" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="64" />
               <folding>
-                <element signature="e#0#40#0" expanded="true" />
+                <element signature="n#!!block;n#detach#0;n#ResultPage#0" expanded="false" />
+                <element signature="n#!!block;n#onImageLoaded#0;n#ResultPage#0" expanded="false" />
+                <element signature="n#!!block;n#onImageError#0;n#ResultPage#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="result.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MOBILE APP/src/pages/result/result.html">
+      <file leaf-file-name="upload-service.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MOBILE APP/src/providers/upload-service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#ion-content#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="195">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="result.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MOBILE APP/src/pages/result/result.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -102,9 +148,12 @@
       <list>
         <option value="$PROJECT_DIR$/MOBILE APP/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/MOBILE APP/src/pages/result/result.scss" />
-        <option value="$PROJECT_DIR$/MOBILE APP/src/providers/upload-service.ts" />
-        <option value="$PROJECT_DIR$/MOBILE APP/src/pages/result/result.ts" />
         <option value="$PROJECT_DIR$/MOBILE APP/src/pages/result/result.html" />
+        <option value="$PROJECT_DIR$/MOBILE APP/src/pages/result/result.ts" />
+        <option value="$PROJECT_DIR$/routes.js" />
+        <option value="$PROJECT_DIR$/MOBILE APP/ionic.config.json" />
+        <option value="$PROJECT_DIR$/MOBILE APP/src/pages/home/home.html" />
+        <option value="$PROJECT_DIR$/MOBILE APP/src/providers/upload-service.ts" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/MOBILE APP/src/pages/home/home.ts" />
       </list>
@@ -131,8 +180,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="24" />
-    <option name="width" value="1920" />
-    <option name="height" value="1056" />
+    <option name="width" value="1366" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -150,6 +199,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -212,28 +263,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="providers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chainer-faster-rcnn-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chainer-faster-rcnn-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MOBILE APP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -268,32 +297,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chainer-faster-rcnn-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chainer-faster-rcnn-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MOBILE APP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -304,6 +309,11 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
     <property name="editor.config.accepted" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/MOBILE APP/src/assets/img" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -381,7 +391,11 @@
       <workItem from="1491157988599" duration="21123000" />
       <workItem from="1491214191728" duration="1042000" />
       <workItem from="1491228344854" duration="119000" />
-      <workItem from="1491236092094" duration="6765000" />
+      <workItem from="1491236092094" duration="22911000" />
+      <workItem from="1491387576822" duration="6522000" />
+      <workItem from="1491398101823" duration="11518000" />
+      <workItem from="1491411580234" duration="964000" />
+      <workItem from="1491425316730" duration="10428000" />
     </task>
     <task id="LOCAL-00001" summary="g">
       <created>1491179400212</created>
@@ -390,26 +404,42 @@
       <option name="project" value="LOCAL" />
       <updated>1491179400212</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="g">
+      <created>1491243379622</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1491243379622</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30022000" />
+    <option name="totallyTimeSpent" value="75600000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1920" height="1056" extended-state="6" />
+    <frame x="0" y="24" width="1366" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17501318" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14743112" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32818532" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23338735" sideWeight="0.50487804" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31210855" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33126935" sideWeight="0.49512196" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -420,27 +450,6 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26712328" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39618137" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -527,7 +536,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <option name="time" value="20" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -537,7 +546,198 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#227#534#0" expanded="false" />
+            <element signature="e#572#879#0" expanded="false" />
+            <element signature="e#903#945#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="53" column="14" lean-forward="false" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="14" />
+          <folding>
+            <element signature="e#572#879#0" expanded="false" />
+            <element signature="e#903#945#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MOBILE APP/src/pages/home/home.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+            <element signature="n#!!block;n#presentActionSheet#0;n#HomePage#0" expanded="false" />
+            <element signature="n#!!block;n#presentPrompt#0;n#HomePage#0" expanded="false" />
+            <element signature="e#2780#2950#0" expanded="false" />
+            <element signature="e#3036#3814#0" expanded="false" />
+            <element signature="n#!!block;n#createFileName#0;n#HomePage#0" expanded="false" />
+            <element signature="n#!!block;n#copyFileToLocalDir#0;n#HomePage#0" expanded="false" />
+            <element signature="n#!!block;n#presentToast#0;n#HomePage#0" expanded="false" />
+            <element signature="n#!!block;n#pathForImage#0;n#HomePage#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MOBILE APP/src/providers/upload-service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MOBILE APP/src/pages/result/result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="7" lean-forward="false" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MOBILE APP/src/pages/result/result.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#572#879#0" expanded="false" />
+            <element signature="e#903#945#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MOBILE APP/src/pages/home/home.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="92" column="91" lean-forward="false" selection-start-line="92" selection-start-column="91" selection-end-line="92" selection-end-column="91" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+            <element signature="n#!!block;n#presentActionSheet#0;n#HomePage#0" expanded="false" />
+            <element signature="n#!!block;n#presentPrompt#0;n#HomePage#0" expanded="false" />
+            <element signature="e#2780#2950#0" expanded="false" />
+            <element signature="e#3036#3814#0" expanded="false" />
+            <element signature="n#!!block;n#createFileName#0;n#HomePage#0" expanded="false" />
+            <element signature="n#!!block;n#copyFileToLocalDir#0;n#HomePage#0" expanded="false" />
+            <element signature="n#!!block;n#presentToast#0;n#HomePage#0" expanded="false" />
+            <element signature="n#!!block;n#pathForImage#0;n#HomePage#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MOBILE APP/src/pages/result/result.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="59" selection-start-column="3" selection-end-line="60" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#84#0" expanded="false" />
+            <element signature="n#!!block;n#detach#0;n#ResultPage#0" expanded="false" />
+            <element signature="n#!!block;n#getImageUrl#0;n#ResultPage#0" expanded="false" />
+            <element signature="n#!!block;n#onImageLoaded#0;n#ResultPage#0" expanded="false" />
+            <element signature="n#!!block;n#onImageError#0;n#ResultPage#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MOBILE APP/src/providers/upload-service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MOBILE APP/src/pages/result/result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="7" lean-forward="false" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MOBILE APP/src/pages/result/result.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="48" lean-forward="false" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
+          <folding>
+            <element signature="e#572#879#0" expanded="false" />
+            <element signature="e#903#945#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MOBILE APP/src/pages/home/home.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2340">
+          <caret line="156" column="0" lean-forward="false" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+            <element signature="n#!!block;n#presentActionSheet#0;n#HomePage#0" expanded="false" />
+            <element signature="n#!!block;n#presentPrompt#0;n#HomePage#0" expanded="false" />
+            <element signature="e#2780#2950#0" expanded="false" />
+            <element signature="e#3036#3814#0" expanded="false" />
+            <element signature="n#!!block;n#createFileName#0;n#HomePage#0" expanded="false" />
+            <element signature="n#!!block;n#copyFileToLocalDir#0;n#HomePage#0" expanded="false" />
+            <element signature="n#!!block;n#presentToast#0;n#HomePage#0" expanded="false" />
+            <element signature="n#!!block;n#pathForImage#0;n#HomePage#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MOBILE APP/src/pages/result/result.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#84#0" expanded="false" />
+            <element signature="n#!!block;n#detach#0;n#ResultPage#0" expanded="false" />
+            <element signature="n#!!block;n#getImageUrl#0;n#ResultPage#0" expanded="false" />
+            <element signature="n#!!block;n#onImageLoaded#0;n#ResultPage#0" expanded="false" />
+            <element signature="n#!!block;n#onImageError#0;n#ResultPage#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MOBILE APP/src/pages/result/result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MOBILE APP/src/pages/result/result.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#572#879#0" expanded="false" />
+            <element signature="e#903#945#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -547,7 +747,8 @@
         <state relative-caret-position="75">
           <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
           <folding>
-            <element signature="e#227#534#0" expanded="false" />
+            <element signature="e#572#879#0" expanded="false" />
+            <element signature="e#903#945#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -557,7 +758,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#227#534#0" expanded="false" />
+            <element signature="e#572#879#0" expanded="false" />
+            <element signature="e#903#945#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -576,13 +778,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MOBILE APP/src/pages/home/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="22" column="49" lean-forward="false" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MOBILE APP/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -594,66 +789,88 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="17" column="26" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MOBILE APP/src/assets/img/a.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes.js" />
+    <entry file="file://$PROJECT_DIR$/MOBILE APP/ionic.config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MOBILE APP/src/pages/result/result.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+        <state relative-caret-position="45">
+          <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MOBILE APP/src/pages/result/result.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#ion-content#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="67">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="15" selection-end-column="48" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MOBILE APP/src/providers/upload-service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="35" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="35" />
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="39" column="22" lean-forward="false" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+        <state relative-caret-position="-183">
+          <caret line="46" column="19" lean-forward="false" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="19" />
           <folding>
-            <element signature="e#227#534#0" expanded="false" />
+            <element signature="e#572#879#0" expanded="false" />
+            <element signature="e#903#945#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MOBILE APP/src/pages/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="55" lean-forward="true" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MOBILE APP/src/pages/result/result.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        <state relative-caret-position="735">
+          <caret line="64" column="7" lean-forward="false" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="64" />
           <folding>
-            <element signature="e#0#40#0" expanded="true" />
+            <element signature="n#!!block;n#detach#0;n#ResultPage#0" expanded="false" />
+            <element signature="n#!!block;n#onImageLoaded#0;n#ResultPage#0" expanded="false" />
+            <element signature="n#!!block;n#onImageError#0;n#ResultPage#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MOBILE APP/src/pages/home/home.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="134">
+          <caret line="106" column="4" lean-forward="false" selection-start-line="106" selection-start-column="4" selection-end-line="106" selection-end-column="4" />
           <folding>
-            <element signature="e#0#42#0" expanded="true" />
+            <element signature="e#0#40#0" expanded="true" />
             <element signature="n#!!block;n#presentActionSheet#0;n#HomePage#0" expanded="false" />
-            <element signature="n#!!block;n#takePicture#0;n#HomePage#0" expanded="false" />
-            <element signature="e#1766#2544#0" expanded="false" />
-            <element signature="e#2555#2619#0" expanded="false" />
+            <element signature="n#!!block;n#presentPrompt#0;n#HomePage#0" expanded="false" />
+            <element signature="e#2780#2950#0" expanded="false" />
+            <element signature="e#3036#3814#0" expanded="false" />
             <element signature="n#!!block;n#createFileName#0;n#HomePage#0" expanded="false" />
             <element signature="n#!!block;n#copyFileToLocalDir#0;n#HomePage#0" expanded="false" />
             <element signature="n#!!block;n#presentToast#0;n#HomePage#0" expanded="false" />

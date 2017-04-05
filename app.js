@@ -5,7 +5,17 @@ var fs = require('fs');
 var http = require('http');
 var PythonShell = require('python-shell');
 var name;
+var n;
+var bodyParser = require("body-parser");
 
+//for number alea
+app.use(bodyParser.urlencoded({extended: true}));
+app.use(bodyParser.json());
+app.use(function(req, res, next) {
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+    next();
+});
 
 var storage = multer.diskStorage({
     destination: function (req, file, cb) {
@@ -36,12 +46,10 @@ app.post('/upload', function (req, res) {
         PythonShell.run('forward.py', options, function (err, results) {
             if (err) throw err;
             console.log('results: %j', results);
-
-            app.get('/index.html' + success, function (req, res) {//get,put,post,delete
-                res.sendfile('res/index.html');
-            });
         });
 
+
+        //generer un url pourl'image dans res généré par python
         app.get('/' + name, function (req, res) {//get,put,post,delete
             res.sendfile('res/' + name);
         });
@@ -52,6 +60,19 @@ app.post('/upload', function (req, res) {
         }
         res.json({error_code: 0, err_desc: null});
     });
+});
+
+//number alea
+
+app.post('/numb', function(req, res){
+    console.log('Got data');
+    console.log(JSON.stringify(req.body.number));
+    n=('IMG'+JSON.stringify(req.body.number)+'.jpg').replace('"','').replace('"','');
+    app.get('/' + n, function (req, res) {//get,put,post,delete
+        res.sendfile('JPEGImages/' + n);
+    });
+
+    console.log(n)
 });
 
 

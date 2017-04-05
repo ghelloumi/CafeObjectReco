@@ -15,4 +15,6 @@ export class UploadService {
   public getApiUrl() {
     return CONFIG.apiUrl;
   }
+
+
 }

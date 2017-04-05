@@ -7,7 +7,25 @@
 </ion-header>
 
 <ion-content padding>
-  <img style="user-select: none;" src="{{url}}" height="{{h}}" width="{{w}}">
+
+  <!--<img style="user-select: none;" [src]="url" height="{{h}}" width="{{w}}" *ngIf="url">-->
+  <!--&lt;!&ndash;<img style="user-select: none;" src="{{url}}" height="{{h}}" width="{{w}}" [hidden]="url === undefined">&ndash;&gt;-->
+  <!--<h3 *ngIf="!url">Please Select Image!</h3>-->
+
+  <!--<ion-img [src]="url" height="{{h}}" width="{{w}}" *ngIf="src."></ion-img>-->
+  <!--<ion-spinner *ngIf="url"></ion-spinner>-->
+
+      <img [src]="getImageUrl()" (load)="onImageLoaded()" (error)="onImageError()" height="{{h}}" width="{{w}}"/>
+
+
+
+  <div class="but">
+    <button ion-button icon-left (click)="update()">
+      <ion-icon name="refresh"></ion-icon>
+      Push to refresh
+    </button>
+  </div>
+
 </ion-content>
 
 <ion-footer>
